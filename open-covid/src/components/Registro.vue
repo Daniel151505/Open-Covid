@@ -26,7 +26,7 @@
   <br>
   <br>
   <div class="text-center color">
-        <h1>Registrate y encuentra a información en un solo lugar</h1>
+        <h1>Registrate y encuentra la información en un solo lugar</h1>
   </div>
 
   <br>
