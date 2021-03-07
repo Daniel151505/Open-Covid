@@ -20,21 +20,21 @@
   </header>
     <div class="container">
         <div class="row section">
-            <div class="col-lg-6">
-                <div class="mt-3">
-                      <img src="../assets/images/Video.png" class="image" alt=""> <button type="button" class="btn btn-warning ">Warning</button>
+            <div class="col-lg-6 ">
+                <div class="mt-3 centrar ">
+                      <img src="../assets/images/Video.png" class="image redondeo" alt=""> <button type="button" class="btn btn-warning tamaño" >Videos</button>
                 </div>
 
-                <div class="mt-4">
-                      <img src="../assets/images/Estadisticas.png" class="image" alt=""> <button type="button" class="btn btn-warning mt-3">Warning</button>
+                <div class="mt-4  centrar ">
+                      <img src="../assets/images/Estadisticas.png" class="image redondeo" alt=""> <button type="button" class="btn btn-warning  tamaño">Estadisticas</button>
                 </div>
                 
-                <div class="mt-4">
-                     <img src="../assets/images/Balon-de-Oxigeno.png" class="image" alt="">   <button type="button" class="btn btn-warning mt-3">Warning</button>
+                <div class="mt-4  centrar">
+                     <img src="../assets/images/Balon-de-Oxigeno.png" class="image redondeo" alt="">   <button type="button" class="btn btn-warning  tamaño">Balón de Oxigeno</button>
                 </div>
                   
-                <div class="mt-4">
-                    <img src="../assets/images/Cama-UCI.png" class="image" alt="">   <button type="button" class="btn btn-warning mt-3">Warning</button>
+                <div class="mt-4  centrar">
+                    <img src="../assets/images/Cama-UCI.png" class="image redondeo" alt="">   <button type="button" class="btn btn-warning  tamaño">Cama UCI</button>
                 </div>
 
                   
@@ -43,7 +43,7 @@
             </div>
 
             <div class="col-lg-6">
-                Hola
+                
             </div>
         </div>
     </div>
@@ -81,6 +81,22 @@ export default {
 .image{
     width: 120px;
     height: 120px;
+}
+
+.centrar {
+  display: flex;
+}
+
+.tamaño{
+  height: 50px;
+  margin-top: 40px;
+}
+
+.redondeo{
+  border-radius:50%;
+  padding: 1px;
+  border: 8px solid transparent;
+  background: #FFC107;
 }
 
 /*--Header--*/
