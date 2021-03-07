@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-<Registro/>
+<Video/>
   </div>
 </template>
 
 <script>
-import Registro from './components/Registro.vue'
+import Video from './components/Video.vue'
 
 export default {
   name: 'App',
   components: {
-    Registro
+    Video
   }
 }
 </script>
