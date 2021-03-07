@@ -1,7 +1,7 @@
 <template>
 <div>
 
-  <div id="fondo" class="d-flex align-items-center fixed-top">
+  <div id="fondo" class=" align-items-center fixed-top">
       <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
@@ -20,11 +20,18 @@
 
     </div>
   </header>
-    <div class="text-center">
-      <h1>Registrate y encuentra la información en un solo</h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="text-center color">
+        <h1>Registrate y encuentra a información en un solo lugar</h1>
   </div>
+
+  <br>
     <div class="container">
-            <div class="card " >
+            <div class="card" >
   <div class="card-body">  
       <form >
 
@@ -72,7 +79,7 @@
         </div>
     </div>
 
-  <button type="submit" class="btn btn-success">Enviar</button>
+  <button type="submit" class="btn btn-warning" style="color:white">Enviar</button>
 </form>
   </div>
 </div>
@@ -91,6 +98,7 @@ export default {
 </script>
 
 <style>
+
 
 .space {
     width: 95%;
